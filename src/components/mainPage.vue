@@ -93,27 +93,28 @@
 
     <main class="main">
          <div class="container">
-            <div class="main__content_header">
-                <img src="../assets/images/img2.png" alt="" class="main-image">
-                <p class="main__header-title">joshua_l</p>
-            </div>
-
             <div class="main__content">
-                
-                <div class="main__content_description">
-                    <h1 class="main-title">Vue.js</h1>
-                    <div class="main-subtitle"><span>JavaScript</span> framework for building interactive web applications</div>
+                <div class="main__content_header">
+                    <img src="../assets/images/img2.png" alt="" class="main-image">
+                    <p class="main__header-title">joshua_l</p>
                 </div>
 
                 <div class="main__content_info">
-                    <div class="main-star">Star</div>
-                    <div class="main-subscribers">156k</div>
-                    <div class="main-fork">Fork</div>
-                    <div class="main-views">4</div>
-                </div>
-            </div>
+                
+                    <div class="main__content_description">
+                        <h1 class="main-title">Vue.js</h1>
+                        <div class="main-subtitle"><span>JavaScript</span> framework for building interactive web applications</div>
+                    </div>
 
-            <div class="main__issues">
+                    <div class="main__content_info-block">
+                        <div class="main-star">Star</div>
+                        <div class="main-subscribers">156k</div>
+                        <div class="main-fork">Fork</div>
+                        <div class="main-views">4</div>
+                    </div>
+                </div>
+
+                <div class="main__issues">
                     <h2 class="issues-title">Hide issues</h2>
                     <div class="issues__content">
                         <div class="issues__description">
@@ -132,8 +133,10 @@
                         </div>
                     </div>
 
-                    <div class="content-date">15 may</div>
                 </div>
+
+                <div class="content-date">15 may</div>
+            </div>
          </div>
     </main>
 </template>
