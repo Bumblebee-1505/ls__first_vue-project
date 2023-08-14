@@ -3,9 +3,20 @@
 
   export default {
     name: "App",
+    data() {
+      isShown: false
+    },
     components: {
       mainPage
+    },
+    
+    methods: {
+      handleChange(e) {
+        this.isShown = false
+      }
     }
+
+
   }
 </script>
 
@@ -19,6 +30,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "inter";
+  }
+
+  .none {
+    display: none;
+  }
+
+  .active {
+    display: block;
   }
 
   .header {

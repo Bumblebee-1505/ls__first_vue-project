@@ -115,8 +115,8 @@
                 </div>
 
                 <div class="main__issues">
-                    <h2 class="issues-title">Hide issues</h2>
-                    <div class="issues__content">
+                    <button  @click="isShown = !isShown" v-on:click="handleChange" class="issues-title">View issues</button>
+                    <div v-show="isShown" class="issues__content">
                         <div class="issues__description">
                             <p class="issues-name">joshua_l</p>
                             <p class="issues-subtitle">Enable performance measuring in production, at the user's request</p>
